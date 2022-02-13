@@ -85,7 +85,13 @@ const icon = L.icon({
 const marker = L.marker([18.920675417289807, 72.82952788802635], {
   icon: icon,
 });
-marker.bindPopup("<h2>Pizza outlet</h2>");
+marker.bindPopup("<h2>Pizza outlet</h2>"); //title
 marker.addTo(map);
 
 // ------------------- Circle Marker and marker with custom icon --------------------------------
+
+// ------------------- Layer group  --------------------------------
+
+// L.layerGroup([marker1, marker2]).addLayer(polyline).addTo(map);
+
+// ------------------- Layer group  --------------------------------
